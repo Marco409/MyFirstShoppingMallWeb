@@ -1,3 +1,56 @@
-body{
-    background-color: aqua;
+body {
+  background-color: rgb(178, 178, 178);
+  margin: 0;
+}
+
+header {
+  width: 100vh;
+}
+
+.nav-bar {
+  background-color: rgb(26, 29, 56);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 12px;
+  height: 44px; /*위 아래8px씩 더해져서 60px*/
+}
+
+.nav-bar-logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar-logo i {
+  color: chocolate;
+  padding-left: 12px;
+  padding-right: 4px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-bar-menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar-menu li {
+  padding: 8px 24px;
+}
+
+.nav-bar-icons {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar-icons i {
+  color: white;
+  padding: 8px 12px;
 }
