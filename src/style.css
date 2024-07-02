@@ -4,7 +4,7 @@ body {
 }
 
 header {
-  width: 100vh;
+  width: 100vw; /*모바일에서 메뉴화면이 담기지 않음. 수정하기*/
 }
 
 .nav-bar {
